@@ -1,0 +1,419 @@
+    
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Sign Up Form</title>
+
+  
+
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <h1>Sign up</h1>
+
+    
+
+    <form method="POST" onsubmit="myFunction()">
+
+    
+
+      <label>First Name</label><br>
+
+      <input type="text" id="name" required/>
+
+      <br><br>
+
+      
+
+      <label>Last Name</label><br>
+
+      <input type="text" required/>
+
+      <br><br>
+
+      
+
+      <label>E-mail</label><br>
+
+      <input type="email" required/>
+
+      <br><br>
+
+      
+
+      <label>Phone number</label><br>
+
+      <input type="tel" required/>
+
+      <br><br>
+
+      
+
+      <label for="password">Password</label><br>
+
+      <input type="password" id="password" minlength="8" required/>
+
+      <br><br>
+
+      
+
+      <label>Confirm Password</label><br>
+
+      <input type="password" id="password " minlength="8" required/>
+
+      <br><br>
+
+      
+
+      <!-- Countries -->
+
+      <label>Country</label>
+
+      <select required>
+
+        <option></option>
+
+        <option>Afghanistan</option>
+
+        <option>Albania</option>
+
+        <option>Algeria</option>
+
+        <option>Andorra</option>
+
+        <option>Angola</option>
+
+        <option>Antigua and Barbuda</option>
+
+        <option>Argentina</option>
+
+        <option>Armenia</option>
+
+        <option>Australia</option>
+
+        <option>Austria</option>
+
+        <option>Azerbaijan</option>
+
+        <option>Bahamas</option>
+
+        <option>Bahrain</option>
+
+        <option>Bangladesh</option>
+
+        <option>Belgium</option>
+
+        <option>Benin</option>
+
+        <option>Bhutan</option>
+
+        <option>Botswana</option>
+
+        <option>Brazil</option>
+
+        <option>Bulgaria</option>
+
+        <option>Cambodia</option>
+
+        <option>Canada</option>
+
+        <option>Central African Republic </option>
+
+        <option>Chad</option>
+
+        <option>Chile</option>
+
+        <option>China</option>
+
+        <option>Colombia</option>
+
+        <option>Comoros</option>
+
+        <option>Congo</option>
+
+        <option>Costa Rica</option>
+
+        <option>Cuba</option>
+
+        <option>Cyprus</option>
+
+        <option>Czech</option>
+
+        <option>Denmark</option>
+
+        <option>Democratic Republicof the Congo</option>
+
+        <option>Djibouti</option>
+
+        <option>Dominica</option>
+
+        <option>Ecuador</option>
+
+        <option>Egypt</option>
+
+        <option>El Salvador</option>
+
+        <option>Equatorial Guinea</option>
+
+        <option>Eritrea</option>
+
+        <option>Estonia</option>
+
+        <option>Fiji</option>
+
+        <option>Finland</option>
+
+        <option>France</option>
+
+        <option>Gabon</option>
+
+        <option>Gambia</option>
+
+        <option>Georgia</option>
+
+        <option>Germany</option>
+
+        <option>Ghana</option>
+
+        <option>Greece</option>
+
+        <option>Grenada</option>
+
+        <option>Guyana</option>
+
+        <option>Haiti</option>
+
+        <option>Hungary</option>
+
+        <option>Honduras</option>
+
+        <option>Iceland</option>
+
+        <option>India</option>
+
+        <option>Indonesia</option>
+
+        <option>Iran</option>
+
+        <option>Iraq</option>
+
+        <option>Ireland</option>
+
+        <option>Israel</option>
+
+        <option>Italy</option>
+
+        <option>Jamaica</option>
+
+        <option>Jordan</option>
+
+        <option>Japan</option>
+
+        <option>Kazakhstan</option>
+
+        <option>Kenya</option>
+
+        <option>Kiribati</option>
+
+        <option>Kuwait</option>
+
+        <option>Kyrgyzstan</option>
+
+        <option>Latvia</option>
+
+        <option>Laos</option>
+
+        <option>Lebanon</option>
+
+        <option>Liberia</option>
+
+        <option>Libya</option>
+
+        <option>Luxembourg</option>
+
+        <option>Madagascar</option>
+
+        <option>Malawi</option>
+
+        <option>Malaysia</option>
+
+        <option>Maldives</option>
+
+        <option>Malta </option>
+
+        <option>Mali </option>
+
+        <option>Mexico</option>
+
+        <option>Micronesia</option>
+
+        <option>Moldova</option>
+
+        <option>Monaco</option>
+
+        <option>Mongolia</option>
+
+        <option>Myanmar</option>
+
+        <option>Namibia</option>
+
+        <option>Nepal</option>
+
+        <option>Nauru</option>
+
+        <option>Netherlands</option>
+
+        <option>New Zealand</option>
+
+        <option>Nicaragua</option>
+
+        <option>Nigeria</option>
+
+        <option>North Korea</option>
+
+        <option>Norway</option>
+
+        <option>Oman</option>
+
+        <option>Pakistan</option>
+
+        <option>Palau</option>
+
+        <option>Palestine State</option>
+
+        <option>Panama</option>
+
+        <option>Papua New Guinea</option>
+
+        <option>Paraguay</option>
+
+        <option>Peru</option>
+
+        <option>Philippines</option>
+
+        <option>Poland</option>
+
+        <option>Portugal</option>
+
+        <option>Qatar</option>
+
+        <option>Romania</option>
+
+        <option>Russia</option>
+
+        <option>Saint Lucia</option>
+
+        <option>Samoa</option>
+
+        <option>Saudi Arabia</option>
+
+        <option>Serbia</option>
+
+        <option>Singapore</option>
+
+        <option>Somalia</option>
+
+        <option>South Africa</option>
+
+        <option>South Korea</option>
+
+        <option>Spain</option>
+
+        <option>Sri Lanka</option>
+
+        <option>Sudan</option>
+
+        <option>Switzerland</option>
+
+        <option>Sweden</option>
+
+        <option>Syria</option>
+
+        <option>Tajikistan</option>
+
+        <option>Thailand</option>
+
+        <option>Turkey</option>
+
+        <option>Uganda</option>
+
+        <option>Ukraine</option>
+
+        <option>United Arab Emirates</option>
+
+        <option>United Kingdom</option>
+
+        <option>United States of America</option>
+
+        <option>Uzbekistan</option>
+
+        <option>Vanuatu</option>
+
+        <option>Vietnam</option>
+
+        <option>Yemen</option>
+
+        <option>Zambia</option>
+
+        <option>Zimbabwe</option>
+
+      </select>
+
+      <br><br>
+
+      
+
+      <!-- checkbox -->
+
+      <div class="checkbox">
+
+        <input type="checkbox" class="check" value="terms" required/>I agree to the <a href="#">terms and conditions</a>
+
+      </div>
+
+      <br><br>
+
+      
+
+      <div class="login">
+
+        Already member? <a href="#" onclick='alert("N/A \nPath is not working/Supported in SoloLearn")'><b>login</b></a>
+
+      </div>
+
+      <br><br>
+
+    
+
+     <button type="submit">Sign up</button>
+
+    </form>
+
+    
+
+</div>
+
+<!-- Copyright claim, no copyright -->
+
+<div class="norights">
+
+    2021 Strx. No rights reserved
+
+</div>
+
+</body>
+
+</html>
