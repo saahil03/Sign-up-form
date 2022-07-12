@@ -1,0 +1,189 @@
+/* Created by a friend and some by me */
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+
+  display: grid;
+
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC9fvhYbDyIqo2f4kDBcPB__sReqy6Rriecw&usqp=CAU");
+
+  background-size: cover;
+
+}
+
+.wrapper {
+
+  border: solid rgba(255, 255, 255, 0.1);
+
+  border-radius: 13px;
+
+  box-shadow: 0 10px 11px rgba(0, 0, 0, 0.3);
+
+  margin: 5%;
+
+  padding: 20px;
+
+}
+
+h1 {
+
+  margin-top: 0px;
+
+  color: white;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  text-align: center;
+
+}
+
+.form {
+
+  position: relative;
+
+  width: 400px;
+
+  height: 400px;
+
+  display: grid;
+
+  background: rgba(255, 255, 255, 0.1);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+
+}
+
+label {
+
+  color: #FFFF;
+
+  font-family: Georgia;
+
+}
+
+input {
+
+  box-sizing: border-box;
+
+  border: none;
+
+  background: rgba(255, 255, 255, 0.1);
+
+  border-radius: 6px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 13px 20px rgba(0, 0, 0, 0.3);
+
+  color: white;
+
+  height: 18px;
+
+  width: 100%;
+
+}
+
+select {
+
+   border: none;
+
+   height: 20px;
+
+   width: 110px;
+
+   background: rgba(255, 255, 255, 0.1);
+
+   border-radius: 8px;
+
+   border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+   box-shadow: 0 13px 21px rgba(0, 0, 0, 0.3);
+
+   color: white;
+
+}
+
+.check {
+
+  width: 15.5px;
+
+  border: none;
+
+  box-shadow: none;
+
+}
+
+.checkbox {
+
+  color: #FFFF;
+
+  font-family: monospace;
+
+  font-size: 11.07px;
+
+}
+
+/*For login*/
+
+.login {
+
+  color: #FFFF;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  font-size: 14px;
+
+  text-align: center;
+
+}
+
+a {
+
+  color: #FFFF;
+
+}
+
+button {
+
+  border: none;
+
+  background: #FF8A00;
+
+  border-radius: 6px;
+
+  color: #FFFFFF;
+
+  font-size: 17.5px;
+
+  height: 30px;
+
+  width: 100%;
+
+}
+
+.norights {
+
+    text-align: right;
+
+    color: #FFFF;
+
+    font-size: 11px;
+
+    font-family: Courier;
+
+}
